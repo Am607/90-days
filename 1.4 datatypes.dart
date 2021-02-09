@@ -3,15 +3,18 @@ void main() {
   //used to store values as list
   List<String> placeName = ["Malappuram", "Wayanad", "Kannur"];
   List<int> evenNumbers = [2, 4, 6, 8];
-  List<dynamic> Details = [
+  List<dynamic> details = [
     "Bilal",
     23,
     6.9,
   ];
+print(placeName);
+print(evenNumbers);
+print(details);  
 
   print(evenNumbers);
   print(placeName);
-  print(Details);
+  print(details);
 // properties of list // list methods // list inbuild function
   print(evenNumbers[1]);
   print(evenNumbers.first);

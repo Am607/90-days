@@ -9,6 +9,12 @@ void main() {
   e = a * b;
   f = a / b;
   g = a % b; // reminder
+print("c = $c");
+print("d = $d");
+print("e = $e");
+print("f = $f");
+print("g = $g");
+
 
   print("c = $c");
   print(d);
